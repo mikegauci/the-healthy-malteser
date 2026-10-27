@@ -1,0 +1,3134 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "astro",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": false,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/home/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/author/geraldine/",
+      "destination": "/mystory/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7708"
+        }
+      ],
+      "destination": "/vegan-spaghetti-omelette/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6405"
+        }
+      ],
+      "destination": "/healthy-christmas-desserts/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "4701"
+        }
+      ],
+      "destination": "/crispy-baked-tofu/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "3163"
+        }
+      ],
+      "destination": "/vegan-banoffee-pie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "2508"
+        }
+      ],
+      "destination": "/healthy-maltese-imqaret/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "2412"
+        }
+      ],
+      "destination": "/bigilla-maltas-most-loved-healthy-bean-dip/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "1879"
+        }
+      ],
+      "destination": "/chocolate-coconut-balls-the-best-healthy-recipe/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "1696"
+        }
+      ],
+      "destination": "/5-ingredient-magical-no-bake-brownies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "1663"
+        }
+      ],
+      "destination": "/vegan-sweet-potato-brownies-cakey-and-gluten-free/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "1307"
+        }
+      ],
+      "destination": "/the-best-vegan-strawberry-cheesecake-for-health-freaks/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "1236"
+        }
+      ],
+      "destination": "/vegan-gateau-marie/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "1227"
+        }
+      ],
+      "destination": "/vegan-chocolate-frosting/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "1207"
+        }
+      ],
+      "destination": "/a-healthy-carrot-cake-recipe-which-is-also-vegan/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "1135"
+        }
+      ],
+      "destination": "/brungielmimli/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "1149"
+        }
+      ],
+      "destination": "/healthy-vegan-chocolate-cake/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "1112"
+        }
+      ],
+      "destination": "/healthy-figolla/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "1041"
+        }
+      ],
+      "destination": "/helwa-tat-tork-mini-cheesecakes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "1062"
+        }
+      ],
+      "destination": "/ross-il-forn/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "1045"
+        }
+      ],
+      "destination": "/healthy-vegan-prinjolata/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "978"
+        }
+      ],
+      "destination": "/imqarrun-il-forn/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "810"
+        }
+      ],
+      "destination": "/pastini/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "739"
+        }
+      ],
+      "destination": "/healthyqassata/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "133"
+        }
+      ],
+      "destination": "/arjoli_dip/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "342"
+        }
+      ],
+      "destination": "/healthy-maltese-christmas-log/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "303"
+        }
+      ],
+      "destination": "/healthy-maltese-baci/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "122"
+        }
+      ],
+      "destination": "/kwarezimal/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "116"
+        }
+      ],
+      "destination": "/pudina-tal-hobz/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "112"
+        }
+      ],
+      "destination": "/qarabali-mimli/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "1831"
+        }
+      ],
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "461"
+        }
+      ],
+      "destination": "/mystory/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "99"
+        }
+      ],
+      "destination": "/recipes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "2"
+        }
+      ],
+      "destination": "/sample-page/",
+      "statusCode": 301
+    },
+    {
+      "source": "/sitemap_index.xml",
+      "destination": "/sitemap.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/post-sitemap.xml",
+      "destination": "/sitemap.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/page-sitemap.xml",
+      "destination": "/sitemap.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/category-sitemap.xml",
+      "destination": "/sitemap.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/post_tag-sitemap.xml",
+      "destination": "/sitemap.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-sitemap.xml",
+      "destination": "/sitemap.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/plugins/wp-recipe-maker/assets/icons/rating/stars-alt-5.svg",
+      "destination": "/media/stars-alt-5-9e3c75bd.svg",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/09/dsc_2607-300x200.jpg",
+      "destination": "/media/dsc_2607-300x200-39e371ad.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/09/dsc_2607-768x512.jpg",
+      "destination": "/media/dsc_2607-768x512-f04ed775.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/09/dsc_2607.jpg",
+      "destination": "/media/dsc_2607-3fd4357e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/09/dsc_2622-150x150.jpg",
+      "destination": "/media/dsc_2622-150x150-5c8b1a9d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/09/dsc_2622-300x200.jpg",
+      "destination": "/media/dsc_2622-300x200-0c72005b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/09/dsc_2622-480x270.jpg",
+      "destination": "/media/dsc_2622-480x270-f145faf6.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/09/dsc_2622-500x375.jpg",
+      "destination": "/media/dsc_2622-500x375-5e17d2d9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/09/dsc_2622-500x500.jpg",
+      "destination": "/media/dsc_2622-500x500-90bcf056.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/09/dsc_2622-768x512.jpg",
+      "destination": "/media/dsc_2622-768x512-257f9709.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/09/dsc_2622.jpg",
+      "destination": "/media/dsc_2622-3d527861.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/09/dsc_3132-1-300x200.jpg",
+      "destination": "/media/dsc_3132-1-300x200-9ebb0b6b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/09/dsc_3132-1-768x512.jpg",
+      "destination": "/media/dsc_3132-1-768x512-4c959d74.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/09/dsc_3132-1.jpg",
+      "destination": "/media/dsc_3132-1-366b67ff.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/10/dsc_0288-1-150x150.jpg",
+      "destination": "/media/dsc_0288-1-150x150-60f89b61.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/10/dsc_0288-1-300x200.jpg",
+      "destination": "/media/dsc_0288-1-300x200-d1872a17.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/10/dsc_0288-1-480x270.jpg",
+      "destination": "/media/dsc_0288-1-480x270-ec9fb4c6.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/10/dsc_0288-1-500x375.jpg",
+      "destination": "/media/dsc_0288-1-500x375-856f0b5f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/10/dsc_0288-1-500x500.jpg",
+      "destination": "/media/dsc_0288-1-500x500-a7089781.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/10/dsc_0288-1-768x512.jpg",
+      "destination": "/media/dsc_0288-1-768x512-c169d9a9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/10/dsc_0288-1.jpg",
+      "destination": "/media/dsc_0288-1-39387b48.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/10/dsc_0292-1.jpg",
+      "destination": "/media/dsc_0292-1-387a3a4b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/12/dsc_1005-150x150.jpg",
+      "destination": "/media/dsc_1005-150x150-aafae543.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/12/dsc_1005-300x200.jpg",
+      "destination": "/media/dsc_1005-300x200-951a77a7.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/12/dsc_1005-480x270.jpg",
+      "destination": "/media/dsc_1005-480x270-1698cb55.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/12/dsc_1005-500x375.jpg",
+      "destination": "/media/dsc_1005-500x375-851673f7.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/12/dsc_1005-500x500.jpg",
+      "destination": "/media/dsc_1005-500x500-2eb8249d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/12/dsc_1005-768x512.jpg",
+      "destination": "/media/dsc_1005-768x512-8438e7cf.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/12/dsc_1005.jpg",
+      "destination": "/media/dsc_1005-68c3c365.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/12/dsc_3112-1-768x512.jpg",
+      "destination": "/media/dsc_3112-1-768x512-75a2e81f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2017/12/dsc_3112-1.jpg",
+      "destination": "/media/dsc_3112-1-61364f8c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2018/01/dsc_0485-1-300x200.jpg",
+      "destination": "/media/dsc_0485-1-300x200-35f3fd9a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2018/01/dsc_0485-1-768x512.jpg",
+      "destination": "/media/dsc_0485-1-768x512-51b29a51.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2018/01/dsc_0485-1.jpg",
+      "destination": "/media/dsc_0485-1-6ea0298e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2018/01/dsc_0493-150x150.jpg",
+      "destination": "/media/dsc_0493-150x150-6a0baf50.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2018/01/dsc_0493-300x200.jpg",
+      "destination": "/media/dsc_0493-300x200-d2ec3d23.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2018/01/dsc_0493-480x270.jpg",
+      "destination": "/media/dsc_0493-480x270-f382902e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2018/01/dsc_0493-500x375.jpg",
+      "destination": "/media/dsc_0493-500x375-79a3e395.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2018/01/dsc_0493-500x500.jpg",
+      "destination": "/media/dsc_0493-500x500-1bdecb76.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2018/01/dsc_0493-768x512.jpg",
+      "destination": "/media/dsc_0493-768x512-d611f718.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2018/01/dsc_0493.jpg",
+      "destination": "/media/dsc_0493-a97cd5ba.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/07/Healthy-Malteser-Logo-copy-05.jpg",
+      "destination": "/media/Healthy-Malteser-Logo-copy-05-3cdacdbf.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/07/cropped-Healthy-Malteser-Logo-Transparent-1-2-180x180.png",
+      "destination": "/media/cropped-Healthy-Malteser-Logo-Transparent-1-2-180x180-ddcd6171.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/07/cropped-Healthy-Malteser-Logo-Transparent-1-2-192x192.png",
+      "destination": "/media/cropped-Healthy-Malteser-Logo-Transparent-1-2-192x192-9e008934.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/07/cropped-Healthy-Malteser-Logo-Transparent-1-2-270x270.png",
+      "destination": "/media/cropped-Healthy-Malteser-Logo-Transparent-1-2-270x270-394a832d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/07/cropped-Healthy-Malteser-Logo-Transparent-1-2-32x32.png",
+      "destination": "/media/cropped-Healthy-Malteser-Logo-Transparent-1-2-32x32-63eb1698.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/07/cropped-logo-for-web-1.png",
+      "destination": "/media/cropped-logo-for-web-1-583a4ec8.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/dsc_2430-768x512.jpg",
+      "destination": "/media/dsc_2430-768x512-d5f109d3.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/dsc_2430.jpg",
+      "destination": "/media/dsc_2430-01a568c3.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/dsc_2432-300x200.jpg",
+      "destination": "/media/dsc_2432-300x200-cd8e82ee.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/dsc_2432-768x512.jpg",
+      "destination": "/media/dsc_2432-768x512-08631bd9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/dsc_2432.jpg",
+      "destination": "/media/dsc_2432-495d806e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/seasonal-01-1-1024x683.jpg",
+      "destination": "/media/seasonal-01-1-1024x683-0da4a665.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/seasonal-01-1-300x200.jpg",
+      "destination": "/media/seasonal-01-1-300x200-17f87ec3.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/seasonal-01-1-768x512.jpg",
+      "destination": "/media/seasonal-01-1-768x512-86435ef6.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/seasonal-01-1.jpg",
+      "destination": "/media/seasonal-01-1-0f66ebaf.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/seasonal-02-1-1024x683.jpg",
+      "destination": "/media/seasonal-02-1-1024x683-60236023.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/seasonal-02-1-300x200.jpg",
+      "destination": "/media/seasonal-02-1-300x200-60e6bf90.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/seasonal-02-1-768x512.jpg",
+      "destination": "/media/seasonal-02-1-768x512-5df63f53.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/seasonal-02-1.jpg",
+      "destination": "/media/seasonal-02-1-c06b5654.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/seasonal-03-1-1024x683.jpg",
+      "destination": "/media/seasonal-03-1-1024x683-d55721ca.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/seasonal-03-1-300x200.jpg",
+      "destination": "/media/seasonal-03-1-300x200-dce89b34.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/seasonal-03-1-768x512.jpg",
+      "destination": "/media/seasonal-03-1-768x512-b3cf09a4.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/08/seasonal-03-1.jpg",
+      "destination": "/media/seasonal-03-1-cd80210b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/09/Me-about-circle-1-1024x1024.png",
+      "destination": "/media/Me-about-circle-1-1024x1024-e6f59114.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/09/Me-about-circle-1024x1024.png",
+      "destination": "/media/Me-about-circle-1024x1024-d4322c8c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/09/Me-about-circle-150x150.png",
+      "destination": "/media/Me-about-circle-150x150-64c50778.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/09/Me-about-circle-300x300.png",
+      "destination": "/media/Me-about-circle-300x300-1287f3e1.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/09/Me-about-circle-768x768.png",
+      "destination": "/media/Me-about-circle-768x768-0d2f336f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/09/Me-about-circle.png",
+      "destination": "/media/Me-about-circle-80d14581.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/09/dsc_0652-150x150.jpg",
+      "destination": "/media/dsc_0652-150x150-9cde8202.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/09/dsc_0652-480x270.jpg",
+      "destination": "/media/dsc_0652-480x270-9b6bb274.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/09/dsc_0652-500x375.jpg",
+      "destination": "/media/dsc_0652-500x375-36a0372a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/09/dsc_0652-500x500.jpg",
+      "destination": "/media/dsc_0652-500x500-fdeeb45b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/09/dsc_0652.jpg",
+      "destination": "/media/dsc_0652-1d9b742d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/09/dsc_0661.jpg",
+      "destination": "/media/dsc_0661-7b3528c2.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/09/pastini-ta-lewz-header-300x77.png",
+      "destination": "/media/pastini-ta-lewz-header-300x77-e85fc9f3.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/09/pastini-ta-lewz-header-768x197.png",
+      "destination": "/media/pastini-ta-lewz-header-768x197-2ce3f09b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/09/pastini-ta-lewz-header.png",
+      "destination": "/media/pastini-ta-lewz-header-66eb44e3.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_2453-300x200.jpg",
+      "destination": "/media/dsc_2453-300x200-f9fc12b3.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_2453-768x512.jpg",
+      "destination": "/media/dsc_2453-768x512-8208e5f3.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_2453.jpg",
+      "destination": "/media/dsc_2453-06f52ca9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_2473-150x150.jpg",
+      "destination": "/media/dsc_2473-150x150-88ed2e2a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_2473-480x270.jpg",
+      "destination": "/media/dsc_2473-480x270-e41abd97.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_2473-500x375.jpg",
+      "destination": "/media/dsc_2473-500x375-87711754.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_2473-500x500.jpg",
+      "destination": "/media/dsc_2473-500x500-470cd08b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_2473.jpg",
+      "destination": "/media/dsc_2473-a85cf1a5.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_3582-300x200.jpg",
+      "destination": "/media/dsc_3582-300x200-1fa76feb.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_3582-768x512.jpg",
+      "destination": "/media/dsc_3582-768x512-5e925a0c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_3582.jpg",
+      "destination": "/media/dsc_3582-f2106b76.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_3584-300x200.jpg",
+      "destination": "/media/dsc_3584-300x200-fc7ab7ac.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_3584-768x512.jpg",
+      "destination": "/media/dsc_3584-768x512-2ed6de36.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_3584.jpg",
+      "destination": "/media/dsc_3584-87667b00.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_3593-300x200.jpg",
+      "destination": "/media/dsc_3593-300x200-da99c5c2.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_3593-768x512.jpg",
+      "destination": "/media/dsc_3593-768x512-3b3b8294.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2019/10/dsc_3593.jpg",
+      "destination": "/media/dsc_3593-43632880.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/01/dsc_2407-150x150.jpg",
+      "destination": "/media/dsc_2407-150x150-efbd2b19.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/01/dsc_2407-300x200.jpg",
+      "destination": "/media/dsc_2407-300x200-e5c36708.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/01/dsc_2407-480x270.jpg",
+      "destination": "/media/dsc_2407-480x270-ba927c86.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/01/dsc_2407-500x375.jpg",
+      "destination": "/media/dsc_2407-500x375-816696fd.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/01/dsc_2407-500x500.jpg",
+      "destination": "/media/dsc_2407-500x500-935bf755.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/01/dsc_2407-768x512.jpg",
+      "destination": "/media/dsc_2407-768x512-7b8a8dae.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/01/dsc_2407.jpg",
+      "destination": "/media/dsc_2407-e3586b16.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2628-300x200.jpg",
+      "destination": "/media/dsc_2628-300x200-a414f525.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2628-768x512.jpg",
+      "destination": "/media/dsc_2628-768x512-7263e858.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2628.jpg",
+      "destination": "/media/dsc_2628-131506e8.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2633.jpg",
+      "destination": "/media/dsc_2633-205280b0.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2646-300x200.jpg",
+      "destination": "/media/dsc_2646-300x200-39ae9615.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2646-768x512.jpg",
+      "destination": "/media/dsc_2646-768x512-b1f5fd49.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2646.jpg",
+      "destination": "/media/dsc_2646-b596fad4.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2663-150x150.jpg",
+      "destination": "/media/dsc_2663-150x150-a2e3a708.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2663-480x270.jpg",
+      "destination": "/media/dsc_2663-480x270-a41e0678.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2663-500x375.jpg",
+      "destination": "/media/dsc_2663-500x375-a2c97d29.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2663-500x500.jpg",
+      "destination": "/media/dsc_2663-500x500-375567a7.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2663-768x512.jpg",
+      "destination": "/media/dsc_2663-768x512-ed41d062.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2663.jpg",
+      "destination": "/media/dsc_2663-b7014d69.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2826-1-300x200.jpg",
+      "destination": "/media/dsc_2826-1-300x200-04075830.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2826-1-768x512.jpg",
+      "destination": "/media/dsc_2826-1-768x512-453a4ea9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2826-1.jpg",
+      "destination": "/media/dsc_2826-1-a89e8a18.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2840-300x200.jpg",
+      "destination": "/media/dsc_2840-300x200-7182c484.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2840-768x512.jpg",
+      "destination": "/media/dsc_2840-768x512-72640604.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2840.jpg",
+      "destination": "/media/dsc_2840-fac0468f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2869-1-150x150.jpg",
+      "destination": "/media/dsc_2869-1-150x150-b6f7b0af.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2869-1-480x270.jpg",
+      "destination": "/media/dsc_2869-1-480x270-41c45fae.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2869-1-500x375.jpg",
+      "destination": "/media/dsc_2869-1-500x375-535f1efd.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2869-1-500x500.jpg",
+      "destination": "/media/dsc_2869-1-500x500-3353f987.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2869-1.jpg",
+      "destination": "/media/dsc_2869-1-dab19fac.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2870-300x200.jpg",
+      "destination": "/media/dsc_2870-300x200-d1374b75.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2870-768x512.jpg",
+      "destination": "/media/dsc_2870-768x512-a0d6b193.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2870.jpg",
+      "destination": "/media/dsc_2870-8bfc8d97.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2981-300x200.jpg",
+      "destination": "/media/dsc_2981-300x200-ad399206.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2981-768x512.jpg",
+      "destination": "/media/dsc_2981-768x512-3e83aa2f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/02/dsc_2981.jpg",
+      "destination": "/media/dsc_2981-c435cba5.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/88970654_2903170036370175_7937298621857267712_o-1024x683.jpg",
+      "destination": "/media/88970654_2903170036370175_7937298621857267712_o-1024x683-1b60a529.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/88970654_2903170036370175_7937298621857267712_o-1536x1024.jpg",
+      "destination": "/media/88970654_2903170036370175_7937298621857267712_o-1536x1024-a08692e4.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/88970654_2903170036370175_7937298621857267712_o-300x200.jpg",
+      "destination": "/media/88970654_2903170036370175_7937298621857267712_o-300x200-5df42707.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/88970654_2903170036370175_7937298621857267712_o-768x512.jpg",
+      "destination": "/media/88970654_2903170036370175_7937298621857267712_o-768x512-90f1b576.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/88970654_2903170036370175_7937298621857267712_o.jpg",
+      "destination": "/media/88970654_2903170036370175_7937298621857267712_o-60ef1787.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/90602628_2934108803276298_6928804923110850560_o-1024x683.jpg",
+      "destination": "/media/90602628_2934108803276298_6928804923110850560_o-1024x683-2afdd313.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/90602628_2934108803276298_6928804923110850560_o-1536x1024.jpg",
+      "destination": "/media/90602628_2934108803276298_6928804923110850560_o-1536x1024-3b9b7af2.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/90602628_2934108803276298_6928804923110850560_o-300x200.jpg",
+      "destination": "/media/90602628_2934108803276298_6928804923110850560_o-300x200-90805556.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/90602628_2934108803276298_6928804923110850560_o-768x512.jpg",
+      "destination": "/media/90602628_2934108803276298_6928804923110850560_o-768x512-32bce95c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/90602628_2934108803276298_6928804923110850560_o.jpg",
+      "destination": "/media/90602628_2934108803276298_6928804923110850560_o-1d1bea08.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/dsc_3038-1.jpg",
+      "destination": "/media/dsc_3038-1-2802d600.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/dsc_3067-150x150.jpg",
+      "destination": "/media/dsc_3067-150x150-d2e8c6fb.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/dsc_3067-300x200.jpg",
+      "destination": "/media/dsc_3067-300x200-00847718.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/dsc_3067-480x270.jpg",
+      "destination": "/media/dsc_3067-480x270-1fd764b7.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/dsc_3067-500x375.jpg",
+      "destination": "/media/dsc_3067-500x375-996aa73b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/dsc_3067-500x500.jpg",
+      "destination": "/media/dsc_3067-500x500-5d6899b1.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/dsc_3067-768x512.jpg",
+      "destination": "/media/dsc_3067-768x512-3b1377cd.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/03/dsc_3067.jpg",
+      "destination": "/media/dsc_3067-c47e364d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/04/DSC_3016-300x200.jpg",
+      "destination": "/media/DSC_3016-300x200-83b3db3d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/04/DSC_3016-768x512.jpg",
+      "destination": "/media/DSC_3016-768x512-b1482866.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/04/DSC_3016.jpg",
+      "destination": "/media/DSC_3016-b7893f5e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/04/dsc_2894.jpg",
+      "destination": "/media/dsc_2894-89fdb4a2.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/04/dsc_3191-300x200.jpg",
+      "destination": "/media/dsc_3191-300x200-3fe65a42.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/04/dsc_3191-768x512.jpg",
+      "destination": "/media/dsc_3191-768x512-e8296c22.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/04/dsc_3191.jpg",
+      "destination": "/media/dsc_3191-795be8bd.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/04/dsc_3226-1-300x200.jpg",
+      "destination": "/media/dsc_3226-1-300x200-85ae4091.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/04/dsc_3226-1-768x512.jpg",
+      "destination": "/media/dsc_3226-1-768x512-a0fd8a2e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/04/dsc_3226-1.jpg",
+      "destination": "/media/dsc_3226-1-562dc07f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/Normal-Gateau-MArie-Nutrition-Facts-300x225.png",
+      "destination": "/media/Normal-Gateau-MArie-Nutrition-Facts-300x225-0c323f77.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/Normal-Gateau-MArie-Nutrition-Facts-500x375.png",
+      "destination": "/media/Normal-Gateau-MArie-Nutrition-Facts-500x375-c729a5dc.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/Normal-Gateau-MArie-Nutrition-Facts-768x576.png",
+      "destination": "/media/Normal-Gateau-MArie-Nutrition-Facts-768x576-7338824f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/Normal-Gateau-MArie-Nutrition-Facts.png",
+      "destination": "/media/Normal-Gateau-MArie-Nutrition-Facts-034e81dd.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2421-150x150.jpg",
+      "destination": "/media/dsc_2421-150x150-6c4cbfb9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2421-300x200.jpg",
+      "destination": "/media/dsc_2421-300x200-a626bc04.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2421-480x270.jpg",
+      "destination": "/media/dsc_2421-480x270-1adb94b4.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2421-500x375.jpg",
+      "destination": "/media/dsc_2421-500x375-f33c24ad.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2421-500x500.jpg",
+      "destination": "/media/dsc_2421-500x500-a47c2f86.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2421-768x512.jpg",
+      "destination": "/media/dsc_2421-768x512-c5c3cf23.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2421.jpg",
+      "destination": "/media/dsc_2421-dc8d8bb8.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2888-150x150.jpg",
+      "destination": "/media/dsc_2888-150x150-e7353445.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2888-300x200.jpg",
+      "destination": "/media/dsc_2888-300x200-5d3dec8e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2888-480x270.jpg",
+      "destination": "/media/dsc_2888-480x270-42056f3a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2888-500x375.jpg",
+      "destination": "/media/dsc_2888-500x375-daff28a9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2888-500x500.jpg",
+      "destination": "/media/dsc_2888-500x500-15953a85.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2888-768x512.jpg",
+      "destination": "/media/dsc_2888-768x512-f5361f78.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2888.jpg",
+      "destination": "/media/dsc_2888-eb807f36.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2962-150x150.jpg",
+      "destination": "/media/dsc_2962-150x150-8b6d5305.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2962-300x200.jpg",
+      "destination": "/media/dsc_2962-300x200-39bf476c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2962-480x270.jpg",
+      "destination": "/media/dsc_2962-480x270-5f50b03b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2962-500x375.jpg",
+      "destination": "/media/dsc_2962-500x375-d41c6251.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2962-500x500.jpg",
+      "destination": "/media/dsc_2962-500x500-3f365765.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2962-768x512.jpg",
+      "destination": "/media/dsc_2962-768x512-49e59784.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_2962.jpg",
+      "destination": "/media/dsc_2962-c0bd2039.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3036-300x200.jpg",
+      "destination": "/media/dsc_3036-300x200-1bc8fa5c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3036-768x512.jpg",
+      "destination": "/media/dsc_3036-768x512-bd5843b7.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3036.jpg",
+      "destination": "/media/dsc_3036-5667b9a9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3045-150x150.jpg",
+      "destination": "/media/dsc_3045-150x150-89fef479.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3045-300x200.jpg",
+      "destination": "/media/dsc_3045-300x200-8eb22e63.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3045-480x270.jpg",
+      "destination": "/media/dsc_3045-480x270-5525dad0.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3045-500x375.jpg",
+      "destination": "/media/dsc_3045-500x375-55a3c71e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3045-500x500.jpg",
+      "destination": "/media/dsc_3045-500x500-064ebcd2.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3045-768x512.jpg",
+      "destination": "/media/dsc_3045-768x512-8335bf33.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3045.jpg",
+      "destination": "/media/dsc_3045-6152bd6f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3099-150x150.jpg",
+      "destination": "/media/dsc_3099-150x150-46ddf531.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3099-300x200.jpg",
+      "destination": "/media/dsc_3099-300x200-2afe79be.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3099-480x270.jpg",
+      "destination": "/media/dsc_3099-480x270-f54bd501.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3099-500x375.jpg",
+      "destination": "/media/dsc_3099-500x375-9556c6ac.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3099-500x500.jpg",
+      "destination": "/media/dsc_3099-500x500-24d16a71.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3099-768x512.jpg",
+      "destination": "/media/dsc_3099-768x512-c9e2729c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3099.jpg",
+      "destination": "/media/dsc_3099-560846dd.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3148-150x150.jpg",
+      "destination": "/media/dsc_3148-150x150-ce516eb8.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3148-300x200.jpg",
+      "destination": "/media/dsc_3148-300x200-4955d036.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3148-480x270.jpg",
+      "destination": "/media/dsc_3148-480x270-3c99b03a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3148-500x375.jpg",
+      "destination": "/media/dsc_3148-500x375-cd6244fe.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3148-500x500.jpg",
+      "destination": "/media/dsc_3148-500x500-e4c04419.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3148-768x512.jpg",
+      "destination": "/media/dsc_3148-768x512-cc98445e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3148.jpg",
+      "destination": "/media/dsc_3148-fd04e161.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3213-300x200.jpg",
+      "destination": "/media/dsc_3213-300x200-c1468246.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3213-768x512.jpg",
+      "destination": "/media/dsc_3213-768x512-7fc7ec42.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3213.jpg",
+      "destination": "/media/dsc_3213-9a32724a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3215-150x150.jpg",
+      "destination": "/media/dsc_3215-150x150-b8d56f47.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3215-480x270.jpg",
+      "destination": "/media/dsc_3215-480x270-981d05db.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3215-500x375.jpg",
+      "destination": "/media/dsc_3215-500x375-50bb9b34.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3215-500x500.jpg",
+      "destination": "/media/dsc_3215-500x500-25798af8.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3215-768x512.jpg",
+      "destination": "/media/dsc_3215-768x512-f727e9aa.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3215.jpg",
+      "destination": "/media/dsc_3215-810c0ac4.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3350-1-300x200.jpg",
+      "destination": "/media/dsc_3350-1-300x200-3df1f026.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3350-1-768x512.jpg",
+      "destination": "/media/dsc_3350-1-768x512-8540a58a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3350-1.jpg",
+      "destination": "/media/dsc_3350-1-9a0ee20c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3354-1-300x200.jpg",
+      "destination": "/media/dsc_3354-1-300x200-53d61844.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3354-1-768x512.jpg",
+      "destination": "/media/dsc_3354-1-768x512-71f09bd1.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3354-1.jpg",
+      "destination": "/media/dsc_3354-1-285a4a75.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3358-1-150x150.jpg",
+      "destination": "/media/dsc_3358-1-150x150-722aa88b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3358-1-300x200.jpg",
+      "destination": "/media/dsc_3358-1-300x200-5099ebb4.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3358-1-480x270.jpg",
+      "destination": "/media/dsc_3358-1-480x270-cd296907.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3358-1-500x375.jpg",
+      "destination": "/media/dsc_3358-1-500x375-45a45797.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3358-1-500x500.jpg",
+      "destination": "/media/dsc_3358-1-500x500-8c1f1116.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3358-1-768x512.jpg",
+      "destination": "/media/dsc_3358-1-768x512-a3764f66.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3358-1.jpg",
+      "destination": "/media/dsc_3358-1-1d222567.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3362-300x200.jpg",
+      "destination": "/media/dsc_3362-300x200-9bb234d6.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3362-768x512.jpg",
+      "destination": "/media/dsc_3362-768x512-c72663c1.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3362.jpg",
+      "destination": "/media/dsc_3362-3ebdf2bb.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3365-300x200.jpg",
+      "destination": "/media/dsc_3365-300x200-e26e8c89.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3365-768x512.jpg",
+      "destination": "/media/dsc_3365-768x512-5c250b9c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3365.jpg",
+      "destination": "/media/dsc_3365-a1da3715.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3439-300x200.jpg",
+      "destination": "/media/dsc_3439-300x200-ea038a66.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3439-768x512.jpg",
+      "destination": "/media/dsc_3439-768x512-dc0fd2be.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3439.jpg",
+      "destination": "/media/dsc_3439-c1991c2f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3441-150x150.jpg",
+      "destination": "/media/dsc_3441-150x150-751b71fe.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3441-300x200.jpg",
+      "destination": "/media/dsc_3441-300x200-e7261aa9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3441-480x270.jpg",
+      "destination": "/media/dsc_3441-480x270-990577f3.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3441-500x375.jpg",
+      "destination": "/media/dsc_3441-500x375-e5aeaedb.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3441-500x500.jpg",
+      "destination": "/media/dsc_3441-500x500-a837acde.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3441-768x512.jpg",
+      "destination": "/media/dsc_3441-768x512-1d6160df.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3441.jpg",
+      "destination": "/media/dsc_3441-fa21edf0.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3486-300x200.jpg",
+      "destination": "/media/dsc_3486-300x200-b8713f37.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3486-768x512.jpg",
+      "destination": "/media/dsc_3486-768x512-e78fb67b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/dsc_3486.jpg",
+      "destination": "/media/dsc_3486-0bc455d1.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/me_n_cake-225x300.jpg",
+      "destination": "/media/me_n_cake-225x300-3f7a8573.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/me_n_cake.jpg",
+      "destination": "/media/me_n_cake-79494a3a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/rsz_1img_20200305_221602945-225x300.jpg",
+      "destination": "/media/rsz_1img_20200305_221602945-225x300-dc04b7b6.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/05/rsz_1img_20200305_221602945-rotated.jpg",
+      "destination": "/media/rsz_1img_20200305_221602945-rotated-624c2311.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3509-150x150.jpg",
+      "destination": "/media/dsc_3509-150x150-5d5d59a7.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3509-300x200.jpg",
+      "destination": "/media/dsc_3509-300x200-61087e68.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3509-480x270.jpg",
+      "destination": "/media/dsc_3509-480x270-217180df.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3509-500x375.jpg",
+      "destination": "/media/dsc_3509-500x375-4afa577a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3509-500x500.jpg",
+      "destination": "/media/dsc_3509-500x500-dd3fbfb3.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3509-768x512.jpg",
+      "destination": "/media/dsc_3509-768x512-709685d4.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3509.jpg",
+      "destination": "/media/dsc_3509-ca4358f6.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3513-300x200.jpg",
+      "destination": "/media/dsc_3513-300x200-9450bcc4.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3513-768x512.jpg",
+      "destination": "/media/dsc_3513-768x512-a3ec5480.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3513.jpg",
+      "destination": "/media/dsc_3513-3f30b5e9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3521-300x200.jpg",
+      "destination": "/media/dsc_3521-300x200-c5cee9fb.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3521-768x512.jpg",
+      "destination": "/media/dsc_3521-768x512-5128e3dc.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3521.jpg",
+      "destination": "/media/dsc_3521-474889c5.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3523-300x200.jpg",
+      "destination": "/media/dsc_3523-300x200-1183a407.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3523-768x512.jpg",
+      "destination": "/media/dsc_3523-768x512-68917fb2.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3523.jpg",
+      "destination": "/media/dsc_3523-87e17d40.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3525-300x200.jpg",
+      "destination": "/media/dsc_3525-300x200-61f30d7b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3525-768x512.jpg",
+      "destination": "/media/dsc_3525-768x512-2968e6b5.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3525.jpg",
+      "destination": "/media/dsc_3525-8b89c2ec.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3531-300x200.jpg",
+      "destination": "/media/dsc_3531-300x200-afa36ef9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3531-768x512.jpg",
+      "destination": "/media/dsc_3531-768x512-53532c59.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3531.jpg",
+      "destination": "/media/dsc_3531-afdb5c67.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3538-300x200.jpg",
+      "destination": "/media/dsc_3538-300x200-f75f3e39.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3538-768x512.jpg",
+      "destination": "/media/dsc_3538-768x512-13f50abc.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3538.jpg",
+      "destination": "/media/dsc_3538-8a541be8.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3545-150x150.jpg",
+      "destination": "/media/dsc_3545-150x150-0001fc6e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3545-300x200.jpg",
+      "destination": "/media/dsc_3545-300x200-af9c4c4f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3545-480x270.jpg",
+      "destination": "/media/dsc_3545-480x270-fdf6bb6e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3545-500x375.jpg",
+      "destination": "/media/dsc_3545-500x375-a1a2041f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3545-500x500.jpg",
+      "destination": "/media/dsc_3545-500x500-9d726bb1.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3545-768x512.jpg",
+      "destination": "/media/dsc_3545-768x512-862b424f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3545.jpg",
+      "destination": "/media/dsc_3545-30c70351.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3547-300x200.jpg",
+      "destination": "/media/dsc_3547-300x200-3fb74696.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3547-768x512.jpg",
+      "destination": "/media/dsc_3547-768x512-fbe63d1c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3547.jpg",
+      "destination": "/media/dsc_3547-8a6c45b1.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3594-300x200.jpg",
+      "destination": "/media/dsc_3594-300x200-2a0ff55a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3594-768x512.jpg",
+      "destination": "/media/dsc_3594-768x512-524af9ac.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/06/dsc_3594.jpg",
+      "destination": "/media/dsc_3594-6878dd85.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-1-300x200.jpg",
+      "destination": "/media/Bigilla-Dip-1-300x200-16c617b9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-1-768x512.jpg",
+      "destination": "/media/Bigilla-Dip-1-768x512-7d69d8e9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-1.jpg",
+      "destination": "/media/Bigilla-Dip-1-ea286156.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-3-150x150.jpg",
+      "destination": "/media/Bigilla-Dip-3-150x150-399a5e43.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-3-300x200.jpg",
+      "destination": "/media/Bigilla-Dip-3-300x200-2c2e244e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-3-480x270.jpg",
+      "destination": "/media/Bigilla-Dip-3-480x270-664fc722.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-3-500x375.jpg",
+      "destination": "/media/Bigilla-Dip-3-500x375-a0f83e60.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-3-500x500.jpg",
+      "destination": "/media/Bigilla-Dip-3-500x500-6a42a671.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-3-768x512.jpg",
+      "destination": "/media/Bigilla-Dip-3-768x512-1ef44731.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-3.jpg",
+      "destination": "/media/Bigilla-Dip-3-8b8d2c9d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-6-300x200.jpg",
+      "destination": "/media/Bigilla-Dip-6-300x200-8828b621.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-6-768x512.jpg",
+      "destination": "/media/Bigilla-Dip-6-768x512-35868aba.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-6.jpg",
+      "destination": "/media/Bigilla-Dip-6-de30759f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-7-300x200.jpg",
+      "destination": "/media/Bigilla-Dip-7-300x200-776fab9f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-7-768x512.jpg",
+      "destination": "/media/Bigilla-Dip-7-768x512-c2c0a081.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Bigilla-Dip-7.jpg",
+      "destination": "/media/Bigilla-Dip-7-1fbbb749.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-2-300x200.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-2-300x200-1ef8c89a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-2-768x512.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-2-768x512-3a1a5a55.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-2.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-2-0152fecf.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-4-150x150.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-4-150x150-14b1eb4e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-4-300x200.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-4-300x200-3059dccb.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-4-480x270.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-4-480x270-2da7a578.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-4-500x375.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-4-500x375-3b64f8d8.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-4-500x500.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-4-500x500-b210c871.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-4-768x512.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-4-768x512-c066d42d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-4.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-4-10aa9f88.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-5-300x200.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-5-300x200-229b2336.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-5-768x512.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-5-768x512-f03d4e33.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-5.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-5-98270113.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-6-300x200.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-6-300x200-783255e6.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-6-768x512.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-6-768x512-cdcdf857.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-6.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-6-05a0b68c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-7-300x200.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-7-300x200-c5faab88.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-7-768x512.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-7-768x512-476b28bd.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-7.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-7-896c6f83.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-8-300x200.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-8-300x200-030749ac.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-8-768x512.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-8-768x512-8fb369c4.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/Maltese-Chocolate-Coconut-Balls-8.png",
+      "destination": "/media/Maltese-Chocolate-Coconut-Balls-8-862bc84d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/THM-Homepage-image-1024x416.png",
+      "destination": "/media/THM-Homepage-image-1024x416-3b344185.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/cropped-logo-for-web-footer-11.png",
+      "destination": "/media/cropped-logo-for-web-footer-11-7873161c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_0291-300x200.jpg",
+      "destination": "/media/dsc_0291-300x200-654d5716.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_0291-768x512.jpg",
+      "destination": "/media/dsc_0291-768x512-cba1c150.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_0291.jpg",
+      "destination": "/media/dsc_0291-e151a948.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_0487-300x200.jpg",
+      "destination": "/media/dsc_0487-300x200-637b1ee8.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_0487-768x512.jpg",
+      "destination": "/media/dsc_0487-768x512-874c0c21.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_0487.jpg",
+      "destination": "/media/dsc_0487-dbcf2a00.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_0995-300x200.jpg",
+      "destination": "/media/dsc_0995-300x200-80975756.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_0995-768x512.jpg",
+      "destination": "/media/dsc_0995-768x512-a0d1d58e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_0995.jpg",
+      "destination": "/media/dsc_0995-04e75f3e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_0997-300x200.jpg",
+      "destination": "/media/dsc_0997-300x200-b86390ec.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_0997-768x512.jpg",
+      "destination": "/media/dsc_0997-768x512-563595ff.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_0997.jpg",
+      "destination": "/media/dsc_0997-e67a0a50.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2392-300x200.jpg",
+      "destination": "/media/dsc_2392-300x200-4aa9b19b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2392-768x512.jpg",
+      "destination": "/media/dsc_2392-768x512-984c7840.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2392.jpg",
+      "destination": "/media/dsc_2392-160d6394.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2404-300x200.jpg",
+      "destination": "/media/dsc_2404-300x200-dcfd5b6f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2404-768x512.jpg",
+      "destination": "/media/dsc_2404-768x512-92e71dd6.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2404.jpg",
+      "destination": "/media/dsc_2404-a849438c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2405-300x200.jpg",
+      "destination": "/media/dsc_2405-300x200-a50473d4.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2405-768x512.jpg",
+      "destination": "/media/dsc_2405-768x512-1aa46ba9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2405.jpg",
+      "destination": "/media/dsc_2405-cb582139.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2407.jpg",
+      "destination": "/media/dsc_2407-acf8d017.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2412-300x200.jpg",
+      "destination": "/media/dsc_2412-300x200-14a958c5.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2412-768x512.jpg",
+      "destination": "/media/dsc_2412-768x512-ec375928.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2412.jpg",
+      "destination": "/media/dsc_2412-93600dcb.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2428-300x200.jpg",
+      "destination": "/media/dsc_2428-300x200-2b916fb5.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2428-768x512.jpg",
+      "destination": "/media/dsc_2428-768x512-57115544.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2428.jpg",
+      "destination": "/media/dsc_2428-677dd4e7.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2601-300x200.jpg",
+      "destination": "/media/dsc_2601-300x200-3d5fd6dd.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2601-768x512.jpg",
+      "destination": "/media/dsc_2601-768x512-81f03a00.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2601.jpg",
+      "destination": "/media/dsc_2601-7640fdc3.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2608-300x200.jpg",
+      "destination": "/media/dsc_2608-300x200-4e4dc337.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2608-768x512.jpg",
+      "destination": "/media/dsc_2608-768x512-cd3469e5.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2608.jpg",
+      "destination": "/media/dsc_2608-8e3fbe34.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2630-300x200.jpg",
+      "destination": "/media/dsc_2630-300x200-cb90c378.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2630-768x512.jpg",
+      "destination": "/media/dsc_2630-768x512-f71c5fad.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2630.jpg",
+      "destination": "/media/dsc_2630-602b774d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2843-300x200.jpg",
+      "destination": "/media/dsc_2843-300x200-290380ee.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2843-768x512.jpg",
+      "destination": "/media/dsc_2843-768x512-12f9d140.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2843.jpg",
+      "destination": "/media/dsc_2843-0e5f22ab.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2898-300x200.jpg",
+      "destination": "/media/dsc_2898-300x200-a264db5b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2898-768x512.jpg",
+      "destination": "/media/dsc_2898-768x512-6751b887.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2898.jpg",
+      "destination": "/media/dsc_2898-96ea4c8e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2990-300x200.jpg",
+      "destination": "/media/dsc_2990-300x200-43164ae0.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2990-768x512.jpg",
+      "destination": "/media/dsc_2990-768x512-add8cc95.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_2990.jpg",
+      "destination": "/media/dsc_2990-278dd605.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3045.jpg",
+      "destination": "/media/dsc_3045-77333dbd.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3053-300x200.jpg",
+      "destination": "/media/dsc_3053-300x200-ba8cfe42.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3053-768x512.jpg",
+      "destination": "/media/dsc_3053-768x512-e5af48a5.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3053.jpg",
+      "destination": "/media/dsc_3053-442fd44a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3116-300x200.jpg",
+      "destination": "/media/dsc_3116-300x200-463caf68.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3116-768x512.jpg",
+      "destination": "/media/dsc_3116-768x512-151f4b29.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3116.jpg",
+      "destination": "/media/dsc_3116-d92a0e8f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3158-300x200.jpg",
+      "destination": "/media/dsc_3158-300x200-e19bf109.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3158-768x512.jpg",
+      "destination": "/media/dsc_3158-768x512-5cc15b94.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3158.jpg",
+      "destination": "/media/dsc_3158-3ff6b36d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3215-300x200.jpg",
+      "destination": "/media/dsc_3215-300x200-d78d2b02.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3215-768x512.jpg",
+      "destination": "/media/dsc_3215-768x512-14850b7b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3215.jpg",
+      "destination": "/media/dsc_3215-29b4a0bf.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3503-300x200.jpg",
+      "destination": "/media/dsc_3503-300x200-5ca48587.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3503-768x512.jpg",
+      "destination": "/media/dsc_3503-768x512-738ceff2.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3503.jpg",
+      "destination": "/media/dsc_3503-bc259314.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3505-300x200.jpg",
+      "destination": "/media/dsc_3505-300x200-5681143f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3505-768x512.jpg",
+      "destination": "/media/dsc_3505-768x512-62e58858.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3505.jpg",
+      "destination": "/media/dsc_3505-5e6aac5c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3574-300x200.jpg",
+      "destination": "/media/dsc_3574-300x200-6569dc2d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3574-768x512.jpg",
+      "destination": "/media/dsc_3574-768x512-03460000.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/dsc_3574.jpg",
+      "destination": "/media/dsc_3574-07e99b5e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/geraldine-cake-1.jpg",
+      "destination": "/media/geraldine-cake-1-9a15ad0c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/07/the-healthy-malteser-hero.jpg",
+      "destination": "/media/the-healthy-malteser-hero-d0472220.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Date-slice-1-300x200.jpg",
+      "destination": "/media/Maltese-Date-slice-1-300x200-8209e10c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Date-slice-1-768x512.jpg",
+      "destination": "/media/Maltese-Date-slice-1-768x512-015fc009.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Date-slice-1.jpg",
+      "destination": "/media/Maltese-Date-slice-1-c9bf6d2a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Date-slice-2-150x150.jpg",
+      "destination": "/media/Maltese-Date-slice-2-150x150-430603e2.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Date-slice-2-300x200.jpg",
+      "destination": "/media/Maltese-Date-slice-2-300x200-cc1e93db.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Date-slice-2-480x270.jpg",
+      "destination": "/media/Maltese-Date-slice-2-480x270-1f62d592.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Date-slice-2-500x375.jpg",
+      "destination": "/media/Maltese-Date-slice-2-500x375-33b96871.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Date-slice-2-500x500.jpg",
+      "destination": "/media/Maltese-Date-slice-2-500x500-58241593.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Date-slice-2-768x512.jpg",
+      "destination": "/media/Maltese-Date-slice-2-768x512-faec8dd9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Date-slice-2.jpg",
+      "destination": "/media/Maltese-Date-slice-2-1805c62d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Imqaret-1-300x200.jpg",
+      "destination": "/media/Maltese-Imqaret-1-300x200-e8b302fe.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Imqaret-1-768x512.jpg",
+      "destination": "/media/Maltese-Imqaret-1-768x512-70eb619c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Imqaret-1.jpg",
+      "destination": "/media/Maltese-Imqaret-1-3942a16a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Imqaret-3-300x200.jpg",
+      "destination": "/media/Maltese-Imqaret-3-300x200-9c761348.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Imqaret-3-768x512.jpg",
+      "destination": "/media/Maltese-Imqaret-3-768x512-0eaec00f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Imqaret-3.jpg",
+      "destination": "/media/Maltese-Imqaret-3-5d24329b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Imqaret-5-300x200.jpg",
+      "destination": "/media/Maltese-Imqaret-5-300x200-c3c7c018.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Imqaret-5-768x512.jpg",
+      "destination": "/media/Maltese-Imqaret-5-768x512-4c3a734b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/Maltese-Imqaret-5.jpg",
+      "destination": "/media/Maltese-Imqaret-5-9214411b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/dsc_2980-300x200.jpg",
+      "destination": "/media/dsc_2980-300x200-619e6b81.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/dsc_2980-768x512.jpg",
+      "destination": "/media/dsc_2980-768x512-e1e6c51e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/dsc_2980.jpg",
+      "destination": "/media/dsc_2980-7af092a6.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-1-150x150.jpg",
+      "destination": "/media/vegan-banoffee-pie-1-150x150-38c97ad6.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-1-300x200.jpg",
+      "destination": "/media/vegan-banoffee-pie-1-300x200-089e8115.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-1-480x270.jpg",
+      "destination": "/media/vegan-banoffee-pie-1-480x270-7d7b1a8c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-1-500x375.jpg",
+      "destination": "/media/vegan-banoffee-pie-1-500x375-3f0cbbfa.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-1-500x500.jpg",
+      "destination": "/media/vegan-banoffee-pie-1-500x500-8f603daa.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-1-768x512.jpg",
+      "destination": "/media/vegan-banoffee-pie-1-768x512-8679be44.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-1.jpg",
+      "destination": "/media/vegan-banoffee-pie-1-25568314.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-3-300x200.jpg",
+      "destination": "/media/vegan-banoffee-pie-3-300x200-938d8d92.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-3-768x512.jpg",
+      "destination": "/media/vegan-banoffee-pie-3-768x512-863bd5c9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-3.jpg",
+      "destination": "/media/vegan-banoffee-pie-3-fd403b58.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-4-300x200.jpg",
+      "destination": "/media/vegan-banoffee-pie-4-300x200-f8cc1df4.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-4-768x512.jpg",
+      "destination": "/media/vegan-banoffee-pie-4-768x512-ee7133ea.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-4.jpg",
+      "destination": "/media/vegan-banoffee-pie-4-a20404b6.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-5-300x200.jpg",
+      "destination": "/media/vegan-banoffee-pie-5-300x200-c13c5284.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-5-768x512.jpg",
+      "destination": "/media/vegan-banoffee-pie-5-768x512-e27c3702.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-5.jpg",
+      "destination": "/media/vegan-banoffee-pie-5-8e1d7c35.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-6-300x200.jpg",
+      "destination": "/media/vegan-banoffee-pie-6-300x200-4d49e6f4.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-6-768x512.jpg",
+      "destination": "/media/vegan-banoffee-pie-6-768x512-af72c7d3.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-6.jpg",
+      "destination": "/media/vegan-banoffee-pie-6-e88be61e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/08/vegan-banoffee-pie-7.png",
+      "destination": "/media/vegan-banoffee-pie-7-6e4ed0ee.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__1_E0qQy-300x200.jpg",
+      "destination": "/media/crispy_baked_tofu__1_E0qQy-300x200-fb6cb718.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__1_E0qQy-768x512.jpg",
+      "destination": "/media/crispy_baked_tofu__1_E0qQy-768x512-8200494d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__1_E0qQy.jpg",
+      "destination": "/media/crispy_baked_tofu__1_E0qQy-4918980a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__2_GqnKA-300x200.jpg",
+      "destination": "/media/crispy_baked_tofu__2_GqnKA-300x200-46241d7c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__2_GqnKA-768x512.jpg",
+      "destination": "/media/crispy_baked_tofu__2_GqnKA-768x512-afa52d45.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__2_GqnKA.jpg",
+      "destination": "/media/crispy_baked_tofu__2_GqnKA-d747ecdc.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__3_IjoHR-300x200.jpg",
+      "destination": "/media/crispy_baked_tofu__3_IjoHR-300x200-100fae2c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__3_IjoHR-768x512.jpg",
+      "destination": "/media/crispy_baked_tofu__3_IjoHR-768x512-e5c6d1ef.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__3_IjoHR.jpg",
+      "destination": "/media/crispy_baked_tofu__3_IjoHR-55bcc6c9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__4_at2jw-300x200.jpg",
+      "destination": "/media/crispy_baked_tofu__4_at2jw-300x200-03261269.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__4_at2jw-768x512.jpg",
+      "destination": "/media/crispy_baked_tofu__4_at2jw-768x512-15219a42.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__4_at2jw.jpg",
+      "destination": "/media/crispy_baked_tofu__4_at2jw-1b513f24.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__5_pCl8N-150x150.jpg",
+      "destination": "/media/crispy_baked_tofu__5_pCl8N-150x150-ed4890dd.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__5_pCl8N-300x200.jpg",
+      "destination": "/media/crispy_baked_tofu__5_pCl8N-300x200-9b8090e1.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__5_pCl8N-480x270.jpg",
+      "destination": "/media/crispy_baked_tofu__5_pCl8N-480x270-5c68e89e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__5_pCl8N-500x375.jpg",
+      "destination": "/media/crispy_baked_tofu__5_pCl8N-500x375-8771090e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__5_pCl8N-500x500.jpg",
+      "destination": "/media/crispy_baked_tofu__5_pCl8N-500x500-25f6c6c6.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__5_pCl8N-768x512.jpg",
+      "destination": "/media/crispy_baked_tofu__5_pCl8N-768x512-5fb61cb1.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__5_pCl8N.jpg",
+      "destination": "/media/crispy_baked_tofu__5_pCl8N-fceabc59.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__6_OEUYQ-300x200.jpg",
+      "destination": "/media/crispy_baked_tofu__6_OEUYQ-300x200-bbc94bb9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__6_OEUYQ-768x512.jpg",
+      "destination": "/media/crispy_baked_tofu__6_OEUYQ-768x512-8ac4e74e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/10/crispy_baked_tofu__6_OEUYQ.jpg",
+      "destination": "/media/crispy_baked_tofu__6_OEUYQ-bcafa838.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/Coconut-Ball-Gif.gif",
+      "destination": "/media/Coconut-Ball-Gif-a120e60e.gif",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja1-1024x693.png",
+      "destination": "/media/Froga-tat-Tarja1-1024x693-0f9e1be6.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja1-1536x1040.png",
+      "destination": "/media/Froga-tat-Tarja1-1536x1040-83839f72.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja1-2048x1386.png",
+      "destination": "/media/Froga-tat-Tarja1-2048x1386-e4f7cf9c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja1-300x203.png",
+      "destination": "/media/Froga-tat-Tarja1-300x203-a1496f58.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja1-768x520.png",
+      "destination": "/media/Froga-tat-Tarja1-768x520-898b4eda.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja2-300x200.png",
+      "destination": "/media/Froga-tat-Tarja2-300x200-0c22276a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja2-768x512.png",
+      "destination": "/media/Froga-tat-Tarja2-768x512-66d8ce78.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja2.png",
+      "destination": "/media/Froga-tat-Tarja2-2e5942a5.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja4-300x200.png",
+      "destination": "/media/Froga-tat-Tarja4-300x200-966403a0.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja4-768x512.png",
+      "destination": "/media/Froga-tat-Tarja4-768x512-9735f74d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja4.png",
+      "destination": "/media/Froga-tat-Tarja4-bd981b62.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja5-150x150.png",
+      "destination": "/media/Froga-tat-Tarja5-150x150-9724664e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja5-300x200.png",
+      "destination": "/media/Froga-tat-Tarja5-300x200-80ec52c1.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja5-480x270.png",
+      "destination": "/media/Froga-tat-Tarja5-480x270-3d87d94c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja5-500x375.png",
+      "destination": "/media/Froga-tat-Tarja5-500x375-aa045363.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja5-500x500.png",
+      "destination": "/media/Froga-tat-Tarja5-500x500-91535816.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja5-768x512.png",
+      "destination": "/media/Froga-tat-Tarja5-768x512-125db69d.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja5.png",
+      "destination": "/media/Froga-tat-Tarja5-6e968a3b.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja6-300x200.png",
+      "destination": "/media/Froga-tat-Tarja6-300x200-fc27c065.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja6-768x512.png",
+      "destination": "/media/Froga-tat-Tarja6-768x512-ca4ab2ec.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Froga-tat-Tarja6.png",
+      "destination": "/media/Froga-tat-Tarja6-c8655051.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Julie-1-300x200.png",
+      "destination": "/media/Julie-1-300x200-7a91eac7.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Julie-1-768x512.png",
+      "destination": "/media/Julie-1-768x512-75f88411.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/2021/01/Julie-1.png",
+      "destination": "/media/Julie-1-b33a00f7.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/elementor/thumbs/100620024_287162775648292_1380712980710162432_n-optzeiq60738psmjtfn6mdj60gc9gorjf48qmpy62s.jpg",
+      "destination": "/media/100620024_287162775648292_1380712980710162432_n-optzeiq60738psmjtfn6mdj60gc-64ccf45e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/elementor/thumbs/Capture-optzcggx0a9l8lmev1jnne9r30i9klkqswpdpv08mm.png",
+      "destination": "/media/Capture-optzcggx0a9l8lmev1jnne9r30i9klkqswpdpv08mm-9e57e0fb.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/elementor/thumbs/GarminConnect_20200301-133643-opt60esmn4m9c7l7fk73avwcolmjmn57lyopccthv4.jpg",
+      "destination": "/media/GarminConnect_20200301-133643-opt60esmn4m9c7l7fk73avwcolmjmn57lyopccthv4-b41f4000.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/elementor/thumbs/IMG_20190929_140243920-oehhwq2l7hf130gn4boso2d5daoxsk7lzb4qrdc6m2.jpg",
+      "destination": "/media/IMG_20190929_140243920-oehhwq2l7hf130gn4boso2d5daoxsk7lzb4qrdc6m2-2274d518.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/elementor/thumbs/Untitled-design-5-oehj4oyswhlw6cledbwjayxdq5z1uurlcxqexc58s0.png",
+      "destination": "/media/Untitled-design-5-oehj4oyswhlw6cledbwjayxdq5z1uurlcxqexc58s0-a3c2fcdf.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/elementor/thumbs/Untitled-design-5-oqatrpm7zsmo60lx9o9n1w2mzodgk65qjz8osvzkp4.png",
+      "destination": "/media/Untitled-design-5-oqatrpm7zsmo60lx9o9n1w2mzodgk65qjz8osvzkp4-61e17c0a.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/uploads/elementor/thumbs/me-circle2-odxoskuxu730mysbn5h5bt4gkg25bjlq6fqiv6ltcg.png",
+      "destination": "/media/me-circle2-odxoskuxu730mysbn5h5bt4gkg25bjlq6fqiv6ltcg-44aa218f.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/0ed/0ed6cd1103c5a4b397a95addccbd91f4x100.jpg",
+      "destination": "/media/0ed6cd1103c5a4b397a95addccbd91f4x100-0ce90ff2.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/0ed/0ed6cd1103c5a4b397a95addccbd91f4x50.jpg",
+      "destination": "/media/0ed6cd1103c5a4b397a95addccbd91f4x50-3e575039.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/0ed/0ed6cd1103c5a4b397a95addccbd91f4x96.jpg",
+      "destination": "/media/0ed6cd1103c5a4b397a95addccbd91f4x96-a55a9de7.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/370/3708990d3f8632d3af8a2318acb5460cx100.jpg",
+      "destination": "/media/3708990d3f8632d3af8a2318acb5460cx100-ca4b20a0.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/370/3708990d3f8632d3af8a2318acb5460cx50.jpg",
+      "destination": "/media/3708990d3f8632d3af8a2318acb5460cx50-117e2ab0.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/3e6/3e6cef35a147d894da0ee7f6cd0dd5dcx100.jpg",
+      "destination": "/media/3e6cef35a147d894da0ee7f6cd0dd5dcx100-6f4033ef.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/3e6/3e6cef35a147d894da0ee7f6cd0dd5dcx50.jpg",
+      "destination": "/media/3e6cef35a147d894da0ee7f6cd0dd5dcx50-85925cc9.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/602/6024f9e5290883efbebe71f69a84d6adx100.jpg",
+      "destination": "/media/6024f9e5290883efbebe71f69a84d6adx100-25da94bd.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/602/6024f9e5290883efbebe71f69a84d6adx50.jpg",
+      "destination": "/media/6024f9e5290883efbebe71f69a84d6adx50-5ca28e5e.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/762/76253a56cea9117cef25048288d1fc78x100.jpg",
+      "destination": "/media/76253a56cea9117cef25048288d1fc78x100-a9926fe3.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/762/76253a56cea9117cef25048288d1fc78x50.jpg",
+      "destination": "/media/76253a56cea9117cef25048288d1fc78x50-3e7d04a2.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/81f/81f7c7ddcdd253a31d3acfab648c2043x100.jpg",
+      "destination": "/media/81f7c7ddcdd253a31d3acfab648c2043x100-2c42ddb1.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/81f/81f7c7ddcdd253a31d3acfab648c2043x50.jpg",
+      "destination": "/media/81f7c7ddcdd253a31d3acfab648c2043x50-41a6c735.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/856/85607d325461e66c100ca26252b134bdx100.jpg",
+      "destination": "/media/85607d325461e66c100ca26252b134bdx100-53ba7350.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/856/85607d325461e66c100ca26252b134bdx50.jpg",
+      "destination": "/media/85607d325461e66c100ca26252b134bdx50-00736b82.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/882/88212bc2f979a78528462b7dba83911cx100.jpg",
+      "destination": "/media/88212bc2f979a78528462b7dba83911cx100-b33ae231.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/882/88212bc2f979a78528462b7dba83911cx50.jpg",
+      "destination": "/media/88212bc2f979a78528462b7dba83911cx50-6d3ff565.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/a73/a732458616d947593af65fa62f3b3d5ex100.jpg",
+      "destination": "/media/a732458616d947593af65fa62f3b3d5ex100-d621eeb3.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/a73/a732458616d947593af65fa62f3b3d5ex50.jpg",
+      "destination": "/media/a732458616d947593af65fa62f3b3d5ex50-ba4dca3c.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/b61/b610b5ef812e861635fd30d35eb4715fx100.jpg",
+      "destination": "/media/b610b5ef812e861635fd30d35eb4715fx100-1a9ec221.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/b61/b610b5ef812e861635fd30d35eb4715fx50.jpg",
+      "destination": "/media/b610b5ef812e861635fd30d35eb4715fx50-6c3ae9b1.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/b90/b90e44b493a26f657d5da1f17423062fx100.jpg",
+      "destination": "/media/b90e44b493a26f657d5da1f17423062fx100-de5bc411.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/b90/b90e44b493a26f657d5da1f17423062fx50.jpg",
+      "destination": "/media/b90e44b493a26f657d5da1f17423062fx50-f1665c84.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/c68/c6875b759aa633103fa3fada2cf59023x100.jpg",
+      "destination": "/media/c6875b759aa633103fa3fada2cf59023x100-14258ef3.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/c68/c6875b759aa633103fa3fada2cf59023x50.jpg",
+      "destination": "/media/c6875b759aa633103fa3fada2cf59023x50-e15148c1.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/e27/e271da5b24cb9d1de404c57d38403697x100.jpg",
+      "destination": "/media/e271da5b24cb9d1de404c57d38403697x100-6b0c7ef4.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/e27/e271da5b24cb9d1de404c57d38403697x50.jpg",
+      "destination": "/media/e271da5b24cb9d1de404c57d38403697x50-5eddd085.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/f34/f345f35f9b13f3598bec1fa994fe359ex100.jpg",
+      "destination": "/media/f345f35f9b13f3598bec1fa994fe359ex100-50ff1be5.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-content/wphb-cache/gravatar/f34/f345f35f9b13f3598bec1fa994fe359ex50.jpg",
+      "destination": "/media/f345f35f9b13f3598bec1fa994fe359ex50-625a292b.webp",
+      "statusCode": 301
+    }
+  ],
+  "headers": [
+    {
+      "source": "/_astro/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/media/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/fonts/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/styles/site-:hash.css",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/styles/page-:hash.css",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ]
+}

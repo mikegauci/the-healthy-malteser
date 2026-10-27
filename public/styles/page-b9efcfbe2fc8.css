@@ -1,0 +1,15 @@
+
+/**
+ * Core styles: block-supports
+ */
+.wp-block-gallery.wp-block-gallery-1 {
+	--wp--style--unstable-gallery-gap: var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );
+	gap: var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );
+}
+.wp-elements-40ad1a70e5f8ef89f59d4140a5ea47b9 a:where(:not(.wp-element-button)) {
+	color: var(--wp--preset--color--ast-global-color-5);
+}
+.wp-elements-2aa0ac927f398be03e60140f8d5c5b31 a:where(:not(.wp-element-button)) {
+	color: var(--wp--preset--color--ast-global-color-5);
+}
+

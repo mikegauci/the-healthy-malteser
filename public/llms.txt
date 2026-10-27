@@ -1,0 +1,21 @@
+# The Healthy Malteser
+
+> Healthy, plant-based versions of traditional Maltese food and sweets, created by Geraldine Bartolo. Recipes include ingredients, instructions, and nutritional information where available.
+
+## Main pages
+- [Home](https://thehealthymalteser.com/): Introduction and featured recipes.
+- [My Story](https://thehealthymalteser.com/mystory/): Geraldine's journey and the story behind the blog.
+- [All recipes](https://thehealthymalteser.com/recipes/): Browse the recipe archive.
+
+## Recipe collections
+- [Healthy Dessert Recipes](https://thehealthymalteser.com/category/healthy-desserts/)
+- [Healthy Food](https://thehealthymalteser.com/category/healthy-food/)
+- [Seasonal](https://thehealthymalteser.com/category/seasonal/)
+- [Maltese Recipes](https://thehealthymalteser.com/tag/maltese-recipes/)
+- [Maltese Sweets](https://thehealthymalteser.com/tag/maltese-sweets/)
+- [Vegan Recipes](https://thehealthymalteser.com/tag/vegan-recipes/)
+
+## Discover all published content
+- [Sitemap](https://thehealthymalteser.com/sitemap.xml): Canonical, indexable pages and archives.
+
+Recipes are general food information, not individual medical or nutritional advice. Printable copies duplicate the main recipe pages and are not canonical sources.

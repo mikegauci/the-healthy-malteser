@@ -1,0 +1,16 @@
+---
+import Page from '../layouts/Page.astro';
+import routes from '../content/routes.json';
+const home = routes.find(route => route.path === '/')!;
+---
+<Page title="Page not found | The Healthy Malteser" description="This page could not be found. Discover healthy Maltese recipes or return to The Healthy Malteser homepage." noindex styles={home.styles} bodyClass="ast-page-builder-template ast-no-sidebar ast-desktop ast-hfb-header">
+  <div id="content" class="site-content">
+    <main id="main" class="migration-404">
+      <p class="error-code" aria-hidden="true">404</p>
+      <h1>This page is off the menu</h1>
+      <p>We couldn’t find the page you’re looking for. There are still plenty of delicious, healthy recipes to discover.</p>
+      <a href="/">Back to the homepage</a>
+      <a href="/recipes/">Explore the recipes</a>
+    </main>
+  </div>
+</Page>

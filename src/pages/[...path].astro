@@ -1,0 +1,12 @@
+---
+import Page from '../layouts/Page.astro';
+import routes from '../content/routes.json';
+export function getStaticPaths() {
+  return routes.map(route => ({ params: { path: route.path === '/' ? undefined : route.path.slice(1, -1) }, props: { route } }));
+}
+const { route } = Astro.props;
+const files = import.meta.glob('../content/pages/*.html', { query: '?raw', import: 'default', eager: true });
+const content = files['../content/' + route.file] as string;
+if (!content) throw new Error(`Missing content: ${route.path}`);
+---
+<Page {...route} canonicalPath={route.path}><Fragment set:html={content} /></Page>

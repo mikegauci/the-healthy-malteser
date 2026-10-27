@@ -1,0 +1,55 @@
+---
+import header from '../content/header.html?raw';
+import footer from '../content/footer.html?raw';
+interface Props {
+  title: string;
+  description: string;
+  image?: string | null;
+  noindex?: boolean;
+  styles: string[];
+  bodyClass: string;
+  schemas?: unknown[];
+  kind?: string;
+  canonicalPath?: string;
+}
+const { title, description, image, noindex = false, styles, bodyClass, schemas = [], kind, canonicalPath = Astro.url.pathname } = Astro.props;
+const canonical = new URL(canonicalPath, Astro.site);
+const socialImage = image ? new URL(image, Astro.site).href : undefined;
+const print = kind === 'print';
+const activeHeader = header.replace(/<a\b[^>]*href="([^"]*)"[^>]*>/g, (tag, href) => href === canonicalPath ? tag.replace('>', ' aria-current="page">') : tag);
+const favicon = '/media/cropped-Healthy-Malteser-Logo-Transparent-1-2-32x32-63eb1698.webp';
+---
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large'} />
+    {!noindex && <link rel="canonical" href={canonical} />}
+    <meta property="og:type" content={kind === 'post' ? 'article' : 'website'} />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="The Healthy Malteser" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {!noindex && <meta property="og:url" content={canonical} />}
+    {socialImage && <meta property="og:image" content={socialImage} />}
+    {socialImage && <meta property="og:image:alt" content={title.replace(' - The Healthy Malteser', '')} />}
+    <meta name="twitter:card" content={socialImage ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {socialImage && <meta name="twitter:image" content={socialImage} />}
+    <link rel="icon" type="image/webp" href={favicon} />
+    <link rel="preload" href="/fonts/pt-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    {styles.map(href => <link rel="stylesheet" href={href} />)}
+    <link rel="stylesheet" href="/styles/migration.css" />
+    {schemas.map(value => <script type="application/ld+json" set:html={JSON.stringify(value).replace(/</g, '\u003c')} />)}
+    <script src="/site.js" defer is:inline></script>
+  </head>
+  <body class={bodyClass} id="top">
+    <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+    {print ? <slot /> : <div id="page" class="hfeed site"><Fragment set:html={activeHeader} /><slot /><Fragment set:html={footer} /></div>}
+    {!print && <a href="#top" class="back-to-top" aria-label="Back to top" hidden>↑</a>}
+  </body>
+</html>

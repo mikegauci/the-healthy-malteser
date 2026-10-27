@@ -1,0 +1,119 @@
+.wprm-recipe-template-thm-test {
+    margin: 20px auto;
+    background-color: #ffffff; /*wprm_background type=color*/
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /*wprm_main_font_family type=font*/
+    font-size: 1em; /*wprm_main_font_size type=font_size*/
+    line-height: 1.5em !important; /*wprm_main_line_height type=font_size*/
+    color: #333333; /*wprm_main_text type=color*/
+    max-width: 950px; /*wprm_max_width type=size*/
+}
+.wprm-recipe-template-thm-test a {
+    color: #f5a623; /*wprm_link type=color*/
+}
+.wprm-recipe-template-thm-test p, .wprm-recipe-template-thm-test li {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /*wprm_main_font_family type=font*/
+    font-size: 1em !important;
+    line-height: 1.5em !important; /*wprm_main_line_height type=font_size*/
+}
+.wprm-recipe-template-thm-test li {
+    margin: 0 0 0 32px !important;
+    padding: 0 !important;
+}
+.rtl .wprm-recipe-template-thm-test li {
+    margin: 0 32px 0 0 !important;
+}
+.wprm-recipe-template-thm-test ol, .wprm-recipe-template-thm-test ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.wprm-recipe-template-thm-test br {
+    display: none;
+}
+.wprm-recipe-template-thm-test .wprm-recipe-name,
+.wprm-recipe-template-thm-test .wprm-recipe-header {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /*wprm_header_font_family type=font*/
+    color: #cb2d6f; /*wprm_header_text type=color*/
+    line-height: 1.3em; /*wprm_header_line_height type=font_size*/
+}
+.wprm-recipe-template-thm-test h1,
+.wprm-recipe-template-thm-test h2,
+.wprm-recipe-template-thm-test h3,
+.wprm-recipe-template-thm-test h4,
+.wprm-recipe-template-thm-test h5,
+.wprm-recipe-template-thm-test h6 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /*wprm_header_font_family type=font*/
+    color: #cb2d6f; /*wprm_header_text type=color*/
+    line-height: 1.3em; /*wprm_header_line_height type=font_size*/
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.wprm-recipe-template-thm-test .wprm-recipe-header {
+    margin-top: 1.2em !important;
+}
+.wprm-recipe-template-thm-test h1 {
+    font-size: 2em; /*wprm_h1_size type=font_size*/
+}
+.wprm-recipe-template-thm-test h2 {
+    font-size: 1.8em; /*wprm_h2_size type=font_size*/
+}
+.wprm-recipe-template-thm-test h3 {
+    font-size: 1.2em; /*wprm_h3_size type=font_size*/
+}
+.wprm-recipe-template-thm-test h4 {
+    font-size: 1em; /*wprm_h4_size type=font_size*/
+}
+.wprm-recipe-template-thm-test h5 {
+    font-size: 1em; /*wprm_h5_size type=font_size*/
+}
+.wprm-recipe-template-thm-test h6 {
+    font-size: 1em; /*wprm_h6_size type=font_size*/
+}.wprm-recipe-template-thm-test {
+    font-size: 1em; /*wprm_main_font_size type=font_size*/
+	border-style: solid; /*wprm_border_style type=border*/
+	border-width: 1px; /*wprm_border_width type=size*/
+	border-color: #E0E0E0; /*wprm_border type=color*/
+    padding: 10px;
+    background-color: #ffffff; /*wprm_background type=color*/
+    max-width: 950px; /*wprm_max_width type=size*/
+}
+.wprm-recipe-template-thm-test a {
+    color: #f5a623; /*wprm_link type=color*/
+}
+.wprm-recipe-template-thm-test .wprm-recipe-name {
+    line-height: 1.3em;
+    font-weight: bold;
+}
+.wprm-recipe-template-thm-test .wprm-template-chic-buttons {
+	clear: both;
+    font-size: 0.9em;
+    text-align: center;
+}
+.wprm-recipe-template-thm-test .wprm-template-chic-buttons .wprm-recipe-icon {
+    margin-right: 5px;
+}
+.wprm-recipe-template-thm-test .wprm-recipe-header {
+	margin-bottom: 0.5em !important;
+}
+.wprm-recipe-template-thm-test .wprm-nutrition-label-container {
+	font-size: 0.9em;
+}
+.wprm-recipe-template-thm-test .wprm-call-to-action {
+	border-radius: 3px;
+}.wprm-recipe-template-thm-buttons {
+    font-family: inherit; /*wprm_font_family type=font*/
+    font-size: 0.9em; /*wprm_font_size type=font_size*/
+    text-align: center; /*wprm_text_align type=align*/
+    margin-top: 0px; /*wprm_margin_top type=size*/
+    margin-bottom: 10px; /*wprm_margin_bottom type=size*/
+}
+.wprm-recipe-template-thm-buttons a  {
+    margin: 5px; /*wprm_margin_button type=size*/
+    margin: 5px; /*wprm_margin_button type=size*/
+}
+
+.wprm-recipe-template-thm-buttons a:first-child {
+    margin-left: 0;
+}
+.wprm-recipe-template-thm-buttons a:last-child {
+    margin-right: 0;
+}

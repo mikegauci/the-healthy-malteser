@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /wprm_print/
+Disallow: /404.html
+Disallow: /wp-admin/
+Disallow: /wp-json/
+
+Sitemap: https://thehealthymalteser.com/sitemap.xml
