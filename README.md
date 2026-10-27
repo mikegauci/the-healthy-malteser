@@ -36,7 +36,7 @@ tokens as `PUBLIC_` variables or configure them in the site's Vercel environment
   responsive menu, print, and click-to-load media adaptations. Original CSS class
   names remain styling hooks; they do not load a CMS or plugin.
 - `public/site.js`: a small script for mobile navigation, on-demand video/social
-  embeds, printing, and returning to the top. No frontend framework is shipped.
+  embeds, printing, and returning to the top. No frontend framework is shipped. The original 10.6 MB animated GIF is a compact, locally hosted video with native playback controls and no automatic loading.
 - `docs/content-inventory.json`: publication IDs and the complete migrated URL list.
 
 The source declares Lato and Great Vibes in places without loading those webfonts.

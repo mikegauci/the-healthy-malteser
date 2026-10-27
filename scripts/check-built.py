@@ -22,7 +22,7 @@ for route in routes:
  for script in s.select('script[type="application/ld+json"]'):
   try:json.loads(script.text)
   except ValueError:errors.append('Invalid JSON-LD '+path)
- for el,attr in [(e,'src') for e in s.select('img[src],script[src]')]+[(e,'href') for e in s.select('link[rel=stylesheet],link[rel=icon]')]:
+ for el,attr in [(e,'src') for e in s.select('img[src],script[src],video[src]')]+[(e,'href') for e in s.select('link[rel=stylesheet],link[rel=icon]')]:
   url=el.get(attr,'')
   if url.startswith(('http:','https:','//')):errors.append('Unexpected remote asset '+url)
   elif url.startswith('/') and not (root/'dist'/unquote(url.lstrip('/'))).is_file():errors.append('Missing asset '+url)

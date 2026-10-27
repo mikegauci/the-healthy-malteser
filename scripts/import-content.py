@@ -71,6 +71,10 @@ def clean_fragment(fragment,path,poster=None):
   if 's.w.org/images/core/emoji/' in src:
    img.replace_with(img.get('alt',''));continue
   key=asset_key(src);r=MEDIA.get(key)
+  if r and r['path'].endswith('.mp4'):
+   video=s.new_tag('video',attrs={'src':r['path'],'poster':r['poster'],'width':str(r['width']),'height':str(r['height']),'controls':'','muted':'','loop':'','playsinline':'','preload':'none','class':'recipe-animation','aria-label':img.get('alt') or 'Recipe preparation animation'})
+   video.string='Your browser cannot play this animation.'
+   img.replace_with(video);continue
   if r:
    img['src']=r['path']
    if r.get('width'):
